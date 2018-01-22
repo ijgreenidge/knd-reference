@@ -1,0 +1,28 @@
+#bottom.row{
+   margin-top:10px;
+}
+
+.playerImage{
+    margin-top:10px;
+}
+
+.image{
+   max-width: 250px;
+}
+
+.playerInfo h1{
+   text-align:left;
+}
+.card-img-top{
+   margin-top:10px;
+}
+
+.sectionTwo{
+   background-color:purple;
+   width:1108px;
+   height:1108px;
+}
+
+p{
+   font-size: 18px;
+}
