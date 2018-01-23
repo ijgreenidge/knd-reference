@@ -3,220 +3,241 @@
 <head>
     <title>KND Stat Leaders</title>
     <link rel="stylesheet" href="../style.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
-    
-    
+
+
     <!--Nav Bar-->
-    
-    
-    
+    <nav>
+        <div class="nav-wrapper purple darken-2">
+            <a href="index.html" class="brand-logo "><img src="../images/knd2-5.png" width="75px" height="75px"/></a>
+            <ul id="nav-mobile" class="right">
+                <li><a href="leaders.html">Stat Leaders</a></li>
+                <li><a href="badges.html">Records</a></li>
+                <li><a href="collapsible.html"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <style>
+        a:hover {
+            color: white;
+        }
+
+        .brand-logo {
+            margin-left: 25px;
+        }
+    </style>
+
+
+
     <!--Nav Bar-->
     <div class="container">
         <div class="row">
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h1 class="card-title">Points</h1>
-                        <a href="imani.html">
-                            <p class="card-text">21.1 PPG (CptMani)</p>
-                        </a>
-                    </center>
-                </div>
-            </div>
+            <div class="col m3">
+                <img class="img-fluid" src="../images/cptmani1.png">
 
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h1 class="card-title">Rebounds</h1>
-                        <a href="imani.html">
-                            <p class="card-text"> 10.2 RPG (CptMani)</p>
-                        </a>
-                    </center>
-                </div>
-            </div>
-
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/iamemm.png" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h1 class="card-title">Assists</h1>
-                        <a href="emmet.html">
-                            <p class="card-text"> 10.0 APG (IamEmm)</p>
-                        </a>
-                    </center>
-                </div>
-            </div>
-        
-        <div class="card col-md-3">
-            <img class="card-img-top img-fluid" src="../images/iamemm.png" alt="Card image cap">
-            <div class="card-body">
                 <center>
-                    <h1 class="card-title">Steals</h1>
+                    <h3>Points</h3>
+                    <a href="imani.html">
+                        <p>21.1 PPG (CptMani)</p>
+                    </a>
+                </center>
+
+            </div>
+
+            <div class="col m3">
+                <img class="img-fluid" src="../images/cptmani1.png">
+                <div>
+                    <center>
+                        <h3>Rebounds</h3>
+                        <a href="imani.html">
+                            <p> 10.2 RPG (CptMani)</p>
+                        </a>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col m3">
+                <img class="img-fluid" src="../images/iamemm.png">
+                <center>
+                    <h3>Assists</h3>
+                    <a href="emmet.html">
+                        <p> 10.0 APG (IamEmm)</p>
+                    </a>
+                </center>
+            </div>
+
+
+            <div class="col m3">
+                <img class="img-fluid" src="../images/iamemm.png">
+
+                <center>
+                    <h3>Steals</h3>
                     <a href="emmet.html">
                         <p class="card-text"> 0.9 SPG (IamEmm)</p>
                     </a>
                 </center>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                <div class="card-body">
+            </div>
+
+            <div class="row">
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png">
+
                     <center>
-                        <h1 class="card-title">Blocks</h1>
+                        <h3>Blocks</h3>
                         <a href="imani.html">
-                            <p class="card-text"> 1.1 BPG (CptMani)</p>
+                            <p> 1.1 BPG (CptMani)</p>
                         </a>
                     </center>
+
                 </div>
-            </div>
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/iamemm.png" alt="Card image cap">
-                <div class="card-body">
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/iamemm.png">
+
                     <center>
-                        <h1 class="card-title">Turnovers</h1>
+                        <h3>Turnovers</h3>
                         <a href="emmet.html">
-                            <p class="card-text"> 2.2 TOPG (IamEmm)</p>
+                            <p> 2.2 TOPG (IamEmm)</p>
                         </a>
                     </center>
-                </div>
-            </div>
 
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                <div class="card-body">
+                </div>
+
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png">
+
                     <center>
-                        <h1 class="card-title">Field Goal %</h1>
+                        <h3>Field Goal %</h3>
                         <a href="imani.html">
-                            <p class="card-text"> .723 (CptMani)</p>
+                            <p> .723 (CptMani)</p>
                         </a>
                     </center>
-                </div>
-            </div>
 
-            <div class="card col-md-3">
-                <img class="card-img-top img-fluid" src="../images/kayjames.png" alt="Card image cap">
-                <div class="card-body">
+                </div>
+
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/kayjames.png">
+
                     <center>
-                        <h1 class="card-title">Three Point %</h1>
+                        <h3>Three Point %</h3>
                         <a href="caylynn.html">
-                            <p class="card-text"> .500 (Kay_James691)</p>
+                            <p> .500 (Kay_James691)</p>
                         </a>
                     </center>
+
                 </div>
+
+
             </div>
 
+            <div class="row">
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/iamemm.png">
 
-        </div>
-
-        <div class="row">
-            <div class="card col-md-3">
-                <img class="card-img-top playerImage img-fluid" src="../images/iamemm.png" alt="Card image cap">
-                <div class="card-body">
                     <center>
-                        <h1 class="card-title">Free Throw %</h1>
+                        <h3>Free Throw %</h3>
                         <a href="emmet.html">
-                            <p class="card-text"> 1.000 (IamEmm)</p>
+                            <p> 1.000 (IamEmm)</p>
                         </a>
                     </center>
+
                 </div>
-            </div>
-            <div class="card col-md-3">
-                <img class="card-img-top playerImage img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                <div class="card-body">
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png">
+
                     <center>
-                        <h1 class="card-title">Total Points</h1>
+                        <h3>Total Points</h3>
                         <a href="imani.html">
                             <p class="card-text"> 591 (CptMani)</p>
                         </a>
                     </center>
-                </div>
-            </div>
 
-            <div class="card col-md-3">
-                <img class="card-img-top playerImage img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                <div class="card-body">
+                </div>
+
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png">
+
                     <center>
-                        <h1 class="card-title">Total Rebounds</h1>
+                        <h3>Total Rebounds</h3>
                         <a href="imani.html">
-                            <p class="card-text"> 285 (CptMani)</p>
-                        </a> 
-                    </center>
-                </div>
-            </div>
-
-            <div class="card col-md-3">
-                <img class="card-img-top playerImage img-fluid" src="../images/iamemm.png" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h1 class="card-title">Total Assists</h1>
-                        <a href="emmet.html">
-                            <p class="card-text"> 280 (IamEmm)</p>
+                            <p> 285 (CptMani)</p>
                         </a>
                     </center>
+
+                </div>
+
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/iamemm.png">
+
+                    <center>
+                        <h3>Total Assists</h3>
+                        <a href="emmet.html">
+                            <p> 280 (IamEmm)</p>
+                        </a>
+                    </center>
+
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/iamemm.png">
 
+                    <center>
+                        <h3>Total Steals</h3>
+                        <a href="emmet.html">
+                            <p> 25 (IamEmm)</p>
+                        </a>
+                    </center>
+
+                </div>
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png">
+
+                    <center>
+                        <h3>Total Blocks</h3>
+                        <a href="imani.html">
+                            <p> 31 (CptMani)</p>
+                        </a>
+                    </center>
+
+                </div>
+
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png">
+
+                    <center>
+                        <h3>Total Turnovers</h3>
+                        <a href="imani.html">
+                            <p> (CptMani)</p>
+                        </a>
+                    </center>
+
+                </div>
+
+                <div class="col m3">
+                    <img class="img-fluid" src="../images/cptmani1.png" alt="Card image cap">
+
+                    <center>
+                        <h3>Double Doubles</h3>
+                        <a href="imani.html">
+                            <p> 16 (CptMani)</p>
+                        </a>
+                    </center>
+
+                </div>
+
+
+            </div>
         </div>
-          <div class="row">
-                <div class="card col-md-3">
-                    <img class="card-img-top playerImage img-fluid" src="../images/iamemm.png" alt="Card image cap">
-                    <div class="card-body">
-                        <center>
-                            <h1 class="card-title">Total Steals</h1>
-                            <a href="emmet.html">
-                                <p class="card-text"> 25 (IamEmm)</p>
-                            </a>
-                        </center>
-                    </div>
-                </div>
-                <div class="card col-md-3">
-                    <img class="card-img-top playerImage img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                    <div class="card-body">
-                        <center>
-                            <h1 class="card-title">Total Blocks</h1>
-                            <a href="imani.html">
-                                <p class="card-text"> 31 (CptMani)</p>
-                            </a>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="card col-md-3">
-                    <img class="card-img-top playerImage img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                    <div class="card-body">
-                        <center>
-                            <h1 class="card-title">Total Turnovers</h1>
-                            <a href="imani.html">
-                                <p class="card-text"> (CptMani)</p>
-                            </a>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="card col-md-3">
-                    <img class="card-img-top playerImage img-fluid" src="../images/cptmani1.png" alt="Card image cap">
-                    <div class="card-body">
-                        <center>
-                            <h1 class="card-title">Double Doubles</h1>
-                            <a href="imani.html">
-                                <p class="card-text"> 16 (CptMani)</p>
-                            </a>
-                        </center>
-                    </div>
-                </div>
-
-
-            </div>
-    </div>
     </div>
 </body>
 

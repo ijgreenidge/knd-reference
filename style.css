@@ -1,7 +1,7 @@
-#bottom.row{
-   margin-top:10px;
-}
-
+ html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+      
 .playerImage{
     margin-top:10px;
 }
@@ -25,4 +25,19 @@
 
 p{
    font-size: 18px;
+}
+
+.teamRecord{
+   background-color:purple;
+   padding:200px;
+   top:0px;
+}
+
+.test{
+   padding:150px;
+   border: 2px solid;
+}
+
+h3{
+   width:300px;
 }
