@@ -1,43 +1,49 @@
- html {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
-  }
-      
-.playerImage{
-    margin-top:10px;
+html {
+   font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 
-.image{
+.top {
+   margin-top: 50px;
+}
+
+.playerImage {
+   margin-top: 10px;
+}
+
+.image {
    max-width: 250px;
 }
 
-.playerInfo h1{
-   text-align:left;
-}
-.card-img-top{
-   margin-top:10px;
+.playerInfo h1 {
+   text-align: left;
 }
 
-.sectionTwo{
-   background-color:purple;
-   width:1108px;
-   height:1108px;
+.card-img-top {
+   margin-top: 10px;
 }
 
-p{
+.sectionTwo {
+   background-color: purple;
+   width: 1108px;
+   height: 1108px;
+}
+
+p {
    font-size: 18px;
 }
 
-.teamRecord{
-   background-color:purple;
-   padding:200px;
-   top:0px;
+.teamRecord {
+   background-color: purple;
+   padding: 200px;
+   top: 0px;
 }
 
-.test{
-   padding:150px;
+.test {
+   padding: 150px;
    border: 2px solid;
 }
 
-h3{
-   width:300px;
+.teamInfo{
+   margin-top: 50px;
 }
+
